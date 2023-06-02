@@ -32,7 +32,7 @@ jobs:
       - uses: davidslusser/actions_python_mypy@v1.0.0
         with:
           src: "src"
-          options: "--cov=src"
+          options: "-v"
           pip_install_command: "pip install -e .[dev]"
           python_version: "3.9"
 ```
